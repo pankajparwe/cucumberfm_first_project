@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T09:50:45.628Z",
+        "line": 3,
+        "name": "Open Browser and Navigate",
+        "description": "",
+        "id": "my-first-feature;open-browser-and-navigate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5648323100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opened the browser",
+            "match": {
+              "location": "stepdefs.stepdefs.user_opened_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9561546800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the app url",
+            "match": {
+              "location": "stepdefs.stepdefs.user_navigated_to_the_app_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371021200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is able to see application landing page",
+            "match": {
+              "location": "stepdefs.stepdefs.user_is_able_to_see_application_landing_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-20T09:51:01.454Z",
+        "line": 8,
+        "name": "user is able to search for the product",
+        "description": "",
+        "id": "my-first-feature;user-is-able-to-search-for-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18293046300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User opened the browser and navigated to app url",
+            "match": {
+              "location": "stepdefs.stepdefs.user_opened_the_browser_and_navigated_to_app_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7063404000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user search for the new product",
+            "match": {
+              "location": "stepdefs.stepdefs.user_search_for_the_new_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Seach result of the product displayed",
+            "match": {
+              "location": "stepdefs.stepdefs.seach_result_of_the_product_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "my first feature",
+    "description": "",
+    "id": "my-first-feature",
+    "keyword": "Feature",
+    "uri": "classpath:features/myfirstfeature.feature",
+    "tags": []
+  }
+]
